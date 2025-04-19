@@ -1,0 +1,35 @@
+.menu{
+    display: flex;
+    background-color: black;
+}
+.menu-list li{
+    list-style-type: none;
+    color: white;
+
+}
+.heading{
+    display: flex;
+    list-style-type: none;
+    color: red;
+    gap: 3%;
+}
+.beverage-prices{
+    display: flex;
+    gap: 40%;
+    
+}
+.beverages{
+    color: white;
+}
+.breakfast-prices{
+    color: white;
+     width: 50%;
+}
+.fabric{
+    width: 50%;
+}
+#menu-list{
+    display: flex;
+    gap: 3%;
+}
+

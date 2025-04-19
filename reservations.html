@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservation</title>
+    <link rel="stylesheet" href="reservation.css">
+
+</head>
+<body>
+    <div class="reservation">
+        <div class="image-side">
+            <img src="Images/art.avif" alt="art" id="art">
+            <div class="centered-text">
+                <h1>Karibu</h1>
+                <br>
+             <p>Reservation</p>
+            </div>
+        </div>
+        <div class="form-side">
+    <form>
+        <div>
+        <label for="name">Name</label>
+        <input type="text" placeholder="Enter your first name" id="name">
+    </div>
+        <br>
+        <div class="location">
+        <label for="location">Location</label>
+        
+        <select name="location" id="branch" placeholder="Kitisuru(Open 9 am Closes 11 pm)">
+            <option value="kitisuru" id="kitisuru-branch">Kitisuru(Open 9 am Closes 11 pm)</option>
+            <option value="kilimani" id="kilimani-branch">Kilimani(Open 9 am Closes 11pm)</option>
+        </select>
+    </div>
+        <br>
+        <div class="email-address">
+        <label for="email address">Email Address</label>
+        <input type="text" placeholder="e.ginfo@gmail.com" id="email-address">
+    </div>
+        <br>
+        <div class="tel">
+        <label for="tel/cell">Tel/Cell</label>
+        <input type="digits" placeholder="e.g 0700 000 000" id="tel">
+    </div>
+        <br>
+        <div class="guests">
+        <label for="number of guests">Number of Guests</label>
+        <input type="number" placeholder="(maximum of 8 guests only)" id="guests">
+    </div>
+        <br>
+        <div class="date">
+        <label for="date">Date</label>
+        <input type="date" placeholder="mm/dd/yy" id="date">
+    </div>
+        <br>
+        <div class="time">
+        <label for="time">Time</label>
+        <input type="time" placeholder="--:-- --" id="time">
+    </div>
+        <br>
+        <div class="submit-button">
+        <button id="button"><a href="#">Submit</a></button>
+    </div>
+    </form>
+</div>
+</div>
+<div class="nav-section">
+    <nav class="nav-bar">
+      <ul class="nav-items">
+       <img src="https://img.icons8.com/?size=100&id=ryaLTSxwXbpl&format=png&color=000000" alt="clock-icon" id="clock-icon">
+           <li>Home</li>
+       <li>Menu</li>
+           <li>Reviews</li>
+       <li>Events</li>
+           <li>Live</li>
+           <li>Contacts</li>
+           <div class="reservations">
+       <li>Reservations</li>
+     </div>
+   </div>
+      </ul>
+   </nav>
+</body>
+</html>

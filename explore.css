@@ -1,0 +1,64 @@
+#kitisuru{
+    width: 100%;
+    height: 100vh;
+}
+#kilimani{
+    width: 100%;
+    height: 100vh;
+}
+.explore-menu{
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    position: absolute;
+}
+body{
+    margin: 0;
+}
+.nav-items{
+    list-style-type: none;
+    gap:25%;
+    display: flex;
+ color: white;
+ margin-bottom: 5px;
+ position: relative;
+ font-size: 18px;
+}
+.nav-section{
+    background-color: rgb(46, 44, 44);
+    width: 40%;
+    height: 4rem;
+ border-radius: 30px;
+ position: absolute;
+top: 88%;
+left: 25%;
+}
+.nav-bar{
+    margin-top: 2.5%;
+    margin-left: 50px;
+    margin-right: 560px;
+}
+.reservations{
+    background: grey;
+    width: 85%;
+    text-align: center;
+    height: 2rem;
+    border-radius: 20px;
+    padding-top: 6px;
+    margin-top: 2% ;
+    position: absolute;
+    margin-left: 530px;
+    bottom: 6%;
+}
+  #clock-icon{
+    width: 30px;
+    margin-right: 7%;
+    color: white;
+  }  
+  #ankole-logo{
+    position: absolute;
+    margin-left: -5%;
+    width: 200px;
+    padding-top: 30px;
+    margin-right: 50%;
+  }

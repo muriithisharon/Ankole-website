@@ -1,0 +1,102 @@
+body{
+    margin: 0;
+}
+.contacts{
+    display: flex;
+    background-image:url(Images/welcome.jpg);
+    background-size: cover;
+    height: 100vh;
+    color: white;
+    justify-content: center;
+}
+.ankole-icon{
+    justify-content: center;
+
+}
+#ankole-icon{
+    width: 180px;
+    margin-left: 250px;
+    position:absolute;
+    margin-top: 20px;
+}
+.kitisuru-contact {
+    color: white;
+    border: 1px solid;
+    width: 400px;
+    height: 300px;
+    font-size: medium;
+}
+.kilimani-contact{
+    color: white;
+    border: 1px solid;
+    width: 400px;
+    height: 400px;
+    
+}
+.kilimani{
+    margin:25px ;
+}
+.kilimani a{
+    color: white;
+}
+.kitisuru{
+    margin: 25px;
+}
+.kitisuru a{
+    color: white;
+}
+.branch-contact{
+    display: flex;
+    gap: 5%;
+    margin-top: 300px;
+}
+.nav-items{
+    list-style-type: none;
+    gap:25%;
+    display: flex;
+ color: white;
+ margin-bottom: 5px;
+ position: relative;
+ font-size: 18px;
+}
+.nav-section{
+    background-color: rgb(46, 44, 44);
+    width: 40%;
+    height: 4rem;
+ border-radius: 30px;
+ position: absolute;
+top: 88%;
+left: 25%;
+}
+.nav-bar{
+    margin-top: 2.5%;
+    margin-left: 50px;
+    margin-right: 560px;
+}
+.reservations{
+    background: grey;
+    width: 85%;
+    text-align: center;
+    height: 2rem;
+    border-radius: 20px;
+    padding-top: 6px;
+    margin-top: 2% ;
+    position: absolute;
+    margin-left: 530px;
+    bottom: 6%;
+}
+  #clock-icon{
+    width: 30px;
+    margin-right: 7%;
+    color: white;
+  }  
+  #ankole-logo{
+    position: absolute;
+    margin-left: -5%;
+    width: 200px;
+    padding-top: 30px;
+    margin-right: 50%;
+  }
+  .nav-items  li a{
+ color: white;
+  }
